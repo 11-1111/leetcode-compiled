@@ -1,3 +1,6 @@
+//toBe or notToBe
+//javascript objects 
+
 function expect(standard){
     let s= standard;
         return toBe(val){

@@ -16,3 +16,6 @@ console.log(counter());
 console.log(counter()); 
 console.log(counter());
 console.log(counter());
+
+
+// 10,11,12,13,14
