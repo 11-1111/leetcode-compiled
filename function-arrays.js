@@ -31,8 +31,7 @@ Evaluating from right to left ...
 
 function compose(functions) {
     // Return a function that takes an integer x
-    return {
-        fn :function(x) {
+    return function fn(x) {
        for (let i=functions.length-1; i>=0; i--) {
         functions[i](x);
         x=functions[i](x);
@@ -41,7 +40,7 @@ function compose(functions) {
     return x;
 }
     }
-}
+
 // Example Usage:
 
 // Example 1
