@@ -9,7 +9,10 @@ arr.forEach(person => {
    }
 });
 
+const arranged = occurrences.sort((a, b)=> )
 console.log(occurrences);
+
+
 
 // 
 /*const occurrences = {};  
