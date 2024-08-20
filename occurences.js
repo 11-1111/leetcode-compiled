@@ -7,21 +7,21 @@ arr.forEach(person => {
    } else {
       occurrences[person] = 1;
    }
-   const total = occurrences[person];
+   
 });
 
-const score = 0;
-const total = arr.map(person =>{
+// const score = 0;
+// const total = arr.map(person =>{
 
-    if (occurrences[person]) {
-      occurrences[person]++;
-   } else {
-      occurrences[person] = 1;
-   }
-   score += occurrences[person];
+//     if (occurrences[person]) {
+//       occurrences[person]++;
+//    } else {
+//       occurrences[person] = 1;
+//    }
+//    score += occurrences[person];
 
-})
-console.log(score);
+// })
+// console.log(score);
 
 
 // 
